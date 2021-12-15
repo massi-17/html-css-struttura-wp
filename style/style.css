@@ -29,10 +29,9 @@ main {
 
 section {
     background-color: #1083E9;
-    min-height: 500px;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 1000px;
+    margin: 0 auto;
 }
 
 section::after {
@@ -43,25 +42,25 @@ section::after {
 
 .col_left {
     min-height: 500px;
-    min-width: 200px;
-    background-color: #ABCFE7;
+    width: 200px;
+    background-color: #ABCFE7; 
     float: left;
+    margin-right: 10px;
 }
 
 .center {
     min-height: 500px;
-    width: 580px;
+    width: calc(100% - 400px - 20px);
     background-color: #ABCFE7;
-    margin-left: 10px;
-    margin-right: 10px;
     float: left;
 }
 
 .col_right {
     min-height: 500px;
-    min-width: 200px;
-    background-color: #ABCFE7;
+    width: 200px;
+    background-color: #ABCFE7; 
     float: right;
+    margin-left: 10px;
 }
 
 footer {
